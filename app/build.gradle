@@ -1,14 +1,12 @@
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-}
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
         applicationId "com.iostyle.taskperformer"
-        minSdkVersion 16
+        minSdkVersion 14
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
