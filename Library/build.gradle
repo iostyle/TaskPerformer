@@ -1,14 +1,15 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.iostyle'
+group = 'com.github.iostyle'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
-        versionCode 106
-        versionName "1.0.6"
+        versionCode 107
+        versionName "1.0.7"
 
         consumerProguardFiles "consumer-rules.pro"
     }
